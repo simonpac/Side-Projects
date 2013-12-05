@@ -5,7 +5,7 @@ tell application "System Preferences"
 	launch
 	activate
 	
-	-- Tells System Events which ten presses option and command keys
+	-- Tells System Events to press option and command keys
 	tell application "System Events"
 		key down {option, command}
 	end tell
